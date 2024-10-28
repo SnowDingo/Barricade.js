@@ -2,7 +2,9 @@
 
 export default function Barrier(){
     return(
-        <div >
+        <div onContextMenu={(e)=>{
+            e.preventDefault()
+        }} >
 
         </div>
     )

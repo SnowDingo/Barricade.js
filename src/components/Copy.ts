@@ -3,7 +3,6 @@
 
 export class CopyDisable {
   copyclick: boolean;
-  showalert:boolean;
   private rightClickHandler: EventListener;
   // Event listner variable so it can optimize performance by adding/removing event listeners.
 
@@ -13,22 +12,20 @@ export class CopyDisable {
   }
 
 
-  constructor(copyclick: boolean, showalert: boolean) {
+  constructor(copyclick: boolean) {
     this.copyclick = copyclick;
-    this.showalert = showalert;
     this.rightClickHandler = (event: Event) => {
       event.preventDefault();
     };
-    this.togglerightlick(this.copyclick, this.showalert);
+    this.togglerightlick(this.copyclick);
   }
 
 
 
-  togglerightlick(lock:boolean, showalert:boolean){
+  togglerightlick(lock:boolean){
     if (lock) {
       document.addEventListener("copy", this.rightClickHandler
       );
-      showalert?alert("Copy is disabled"):console.log();
       }else{
         document.removeEventListener("copy",this.rightClickHandler)
       }

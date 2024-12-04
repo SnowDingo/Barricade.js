@@ -1,7 +1,7 @@
 // The CopyDisable Class
 
 
-class CopyDisable {
+export class CopyDisable {
   copyclick: boolean;
   showalert:boolean;
   private rightClickHandler: EventListener;

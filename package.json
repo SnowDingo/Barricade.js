@@ -1,6 +1,6 @@
 {
   "name": "barricade.js",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simple and lightweight JavaScript framework for content and web protection, especially in the field of copyrights.",
   "main": "index.js",
   "scripts": {

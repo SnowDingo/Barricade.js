@@ -3,18 +3,18 @@
 
 export class RightDisable {
   rdevbarlock: boolean;
-  private rdevbarHandler: EventListener;
+  private devbarHandler: EventListener;
   // Event listner variable so it can optimize performance by adding/removing event listeners.
 
 
-  rdevbarhandler= (event:Event) =>{
+  devbarhandler= (event:Event) =>{
     event.preventDefault();
   }
 
 
   constructor(rdevbarlock: boolean) {
     this.rdevbarlock = rdevbarlock;
-    this.rdevbarHandler = (event: Event) => {
+    this.devbarHandler = (event: Event) => {
       event.preventDefault();
     };
     this.togglerightlick(this.rdevbarlock);
@@ -24,11 +24,11 @@ export class RightDisable {
 
   togglerightlick(lock:boolean){
     if (lock) {
-      document.addEventListener("keydown", this.rdevbarHandler
+      document.addEventListener("keydown", this.devbarHandler
       );
 
       }else{
-        document.removeEventListener("contextmenu",this.rdevbarHandler)
+        document.removeEventListener("contextmenu",this.devbarHandler)
       }
   }
   

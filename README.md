@@ -1,4 +1,9 @@
 # Barricade.js
+
+![](https://img.shields.io/badge/free-forever-blue?style=popout)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+
+
 A simple and lightweight TypeScript framework inteded to enhance web's legal and copyright security of websites and web apps.
 
 

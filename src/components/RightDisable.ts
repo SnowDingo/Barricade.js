@@ -1,7 +1,7 @@
 // The RightDisable Class
 
 
-class RightDisable {
+export class RightDisable {
   rightclicklock: boolean;
   showalert:boolean;
   private rightClickHandler: EventListener;

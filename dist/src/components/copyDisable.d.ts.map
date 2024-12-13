@@ -1,0 +1,1 @@
+{"version":3,"file":"copyDisable.d.ts","sourceRoot":"","sources":["../../../src/components/copyDisable.ts"],"names":[],"mappings":"AAGA,qBAAa,WAAW;IACtB,WAAW,EAAE,OAAO,CAAC;IACrB,OAAO,CAAC,aAAa,CAAgB;IAIrC,aAAa,UAAS,KAAK,UAE1B;gBAGW,WAAW,EAAE,OAAO;IAUhC,cAAc,CAAC,IAAI,EAAC,OAAO;CAU5B"}

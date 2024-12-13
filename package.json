@@ -2,7 +2,7 @@
   "name": "barricade.js",
   "version": "0.1.5",
   "description": "A simple and lightweight JavaScript framework for content and web protection, especially in the field of copyrights.",
-  "main": "index.js",
+  "main": "dist/",
   "scripts": {
     "build": "npx tsc"
   },

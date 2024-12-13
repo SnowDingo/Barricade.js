@@ -1,0 +1,1 @@
+{"version":3,"file":"RightDisable.d.ts","sourceRoot":"","sources":["../../../src/components/RightDisable.ts"],"names":[],"mappings":"AAGA,qBAAa,YAAY;IACvB,cAAc,EAAE,OAAO,CAAC;IACxB,SAAS,EAAC,OAAO,CAAC;IAClB,OAAO,CAAC,iBAAiB,CAAgB;IAIzC,iBAAiB,UAAS,KAAK,UAE9B;gBAGW,cAAc,EAAE,OAAO,EAAE,SAAS,EAAE,OAAO;IAWvD,eAAe,CAAC,IAAI,EAAC,OAAO,EAAE,SAAS,EAAC,OAAO;CAUhD"}

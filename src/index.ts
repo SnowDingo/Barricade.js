@@ -1,7 +1,8 @@
+import { copyDisable } from "./components/copyDisable";
 import {RightDisable} from "./components/RightDisable"
 // The entrypoint code
 
-export default function initialize(options:{
+export default function BarricadeSetup(options:{
     //options
     rightdisable:boolean,
     copydisable:boolean,
@@ -10,5 +11,8 @@ export default function initialize(options:{
 }){
     if(options.rightdisable){
         new RightDisable(options.rightdisable,options.showalerts);
+    }
+    if (options.copydisable){
+        new copyDisable(options.copydisable)
     }
 }

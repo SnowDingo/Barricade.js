@@ -4,7 +4,7 @@
   "description": "A simple and lightweight JavaScript framework for content and web protection, especially in the field of copyrights.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "build": "npx tsc"
   },
   "types": "dist/index.d.ts",
   "repository": {

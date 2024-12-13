@@ -1,7 +1,7 @@
-// The DevTool class
+// The CopyDisable class
 
 
-export class RightDisable {
+export class copyDisable {
   rdevbarlock: boolean;
   private devbarHandler: EventListener;
   // Event listner variable so it can optimize performance by adding/removing event listeners.
@@ -17,14 +17,14 @@ export class RightDisable {
     this.devbarHandler = (event: Event) => {
       event.preventDefault();
     };
-    this.togglerightlick(this.rdevbarlock);
+    this.togglecopylick(this.rdevbarlock);
   }
 
 
 
-  togglerightlick(lock:boolean){
+  togglecopylick(lock:boolean){
     if (lock) {
-      document.addEventListener("keydown", this.devbarHandler
+      document.addEventListener("contextmenu", this.devbarHandler
       );
 
       }else{

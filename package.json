@@ -2,11 +2,11 @@
   "name": "barricade.js",
   "version": "0.1.6",
   "description": "A simple and lightweight JavaScript framework for content and web protection, especially in the field of copyrights.",
-  "main": "dist/",
+  "main": "dist/index.js",  
   "scripts": {
-    "build": "npx tsc"
+    "build": "tsc"
   },
-  "types": "dist/index.d.ts",
+  "types": "dist/index.d.ts", 
   "repository": {
     "type": "git",
     "url": "git+https://github.com/snowdingo/barricade.js.git"
@@ -14,7 +14,8 @@
   "keywords": [
     "protection",
     "copyright",
-    "barrier"
+    "barrier",
+    "typescript"
   ],
   "author": "SnowDingo",
   "license": "Apache-2.0",

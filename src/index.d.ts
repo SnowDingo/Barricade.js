@@ -1,3 +1,8 @@
 export * from "./components/RightDisable"
 export * from "./components/copyDisable"
-export * from "./index"
+
+export function BarricadeSetup(options: {
+    rightdisable: boolean;
+    copydisable: boolean;
+    showalerts: boolean;
+}): void;

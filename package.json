@@ -1,12 +1,15 @@
 {
   "name": "barricade.js",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "A simple and lightweight JavaScript framework for content and web protection, especially in the field of copyrights.",
   "main": "dist/index.js",  
   "scripts": {
     "build": "tsc"
   },
   "types": "dist/index.d.ts", 
+  "files": [
+    "/dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/snowdingo/barricade.js.git"
